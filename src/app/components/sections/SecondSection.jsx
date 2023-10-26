@@ -1,0 +1,24 @@
+import { CardContainer } from "..";
+
+const SecondSection = ({empresa}) => {
+  return (
+    <div className="h-[87rem] flex justify-center items-center sm:h-[50rem] ">
+      <div className=" flex flex-col justify-around items-center h-[90%] sm:h-[80%]">
+        <div className="h-[5%] w-[100%] sm:h-[1%] flex flex-col justify-center items-center">
+          <h3 className="font-regular leading-[1rem]  sm:text-[1.2rem] text-[1.2rem]  text-[#272727]">
+            {empresa?.length ? empresa: "Empresa"}
+          </h3>
+          <h3 className="font-[1000] leading-[2.8rem] text-center sm:leading-[3rem] sm:text-[3rem] text-[3rem] font-bell text-[#222222]">
+            Eventos a tu Medida
+          </h3>
+        </div>
+          <div className=" bg-transparent w-[23%] sm:w-[15%] border-solid border-[1px] border-b-[#646264]"/>
+        <div className="flex flex-col items-center w-[100%] gap-3 mx-auto">
+          <CardContainer />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SecondSection;
