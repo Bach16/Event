@@ -1,10 +1,18 @@
+import { Lobster } from "next/font/google";
+
+const lobster = Lobster({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400"],
+});
+
 const ThirdSection = () => {
   return (
     <div className="relative flex flex-col items-center h-screen ">
       <div className="bg-[url('../../public/photos-by-lanty-O38Id_cyV4M-unsplash.jpg')] sm:h-[50%] h-[50%]  w-[100%] bg-no-repeat bg-cover ">
         <div className="h-[100%]  w-[100%]  bg-black/[0.4] backdrop-brightness-75">
           <div className="flex h-[35%] justify-center flex-col items-center ">
-            <p className="font-regular text-center leading-[1rem] sm:leading-[4rem] sm:text-[3rem] text-[2.4rem]  font-lobster text-[#ffffff]">
+            <p className={`font-regular text-center leading-[1rem] sm:leading-[4rem] sm:text-[3rem] text-[2.4rem]  ${lobster.className} text-[#ffffff]`}>
               Nuestra Historia
             </p>
             <div className=" w-[45%] sm:w-[15%] h-[1.1rem] border-solid border-b-[1px] border-[#ffffff]" />

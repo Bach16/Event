@@ -1,4 +1,10 @@
+import { Lobster } from "next/font/google";
 
+const lobster = Lobster({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400"],
+});
 
 const FirstSection = ({empresa}) => {
   return (
@@ -20,7 +26,7 @@ const FirstSection = ({empresa}) => {
             <p className="font-light leading-[2rem] text-[1.14rem] sm:text-[1.25rem]  text-center font-platNomor text-[#ffffff]">
               Creamos experiencias inolvidables.
             </p>
-            <h1 className="font-regular leading-[3rem] sm:leading-[4rem] sm:text-[6rem] text-[3.8rem] text-center font-lobster text-[#ffffff]">
+            <h1 className={`font-regular leading-[3rem] sm:leading-[4rem] sm:text-[6rem] text-[3.8rem] text-center ${lobster.className} text-[#ffffff]`}>
               Hacemos realidad tus eventos
             </h1>
           </div>
