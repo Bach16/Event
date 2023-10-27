@@ -19,7 +19,7 @@ const ThirdSection = () => {
           </div>
         </div>
       </div>
-      <div className="h-[80%] sm:h-[64%] w-[77%] sm:w-[60%] absolute top-[14%] sm:top-[25%] bg-[#f8f8f8] z-0 sm:h-[80%] ">
+      <div className="h-[80%] sm:h-[64%] w-[77%] sm:w-[60%] absolute top-[14%] sm:top-[25%] bg-[#f8f8f8] z-0 ">
         <div className="flex flex-col sm:flex-row justify-between h-[100%]">
           <div className="bg-[url('../../public/pexels-alina-skazka-14822267.jpg')] h-[30%] sm:h-[100%] sm:w-[50%] w-[100%] bg-no-repeat bg-cover"></div>
           <div className="h-[70%] sm:h-[100%] sm:w-[50%] bg-[#ffffff] flex flex-col px-[1.9rem] sm:px-[4rem] justify-evenly items-center ">
