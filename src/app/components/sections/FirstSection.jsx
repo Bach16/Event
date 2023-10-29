@@ -1,4 +1,5 @@
 import capitalize from "@/assets/capitalize";
+import space from "@/assets/space";
 import { Lobster, Marcellus } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,7 +26,7 @@ const FirstSection = ({ empresa }) => {
         <nav className="h-[15%] sm:flex sm:justify-center">
           <ul className="flex justify-center items-center sm:w-[90%] sm:p-[2rem] px-[1rem]">
             <li className={`text-[#ffffff] text-[2rem] ${marcellus.className}`}>
-              {empresa?.length ? capitalize(empresa) : "Empresa"}
+              {empresa?.length ? space(capitalize(empresa)) : "Empresa"}
             </li>
           </ul>
         </nav>
