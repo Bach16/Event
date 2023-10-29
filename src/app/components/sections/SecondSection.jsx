@@ -1,4 +1,4 @@
-import { Marcellus } from "next/font/google";
+import { Anton, Marcellus, Merriweather } from "next/font/google";
 import { CardContainer } from "..";
 import capitalize from "@/assets/capitalize";
 import space from "@/assets/space";
@@ -8,6 +8,13 @@ const marcellus = Marcellus({
   display: "swap",
   weight: ["400"],
 });
+
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400","700","900"],
+});
+
 
 const SecondSection = ({ empresa }) => {
   
@@ -20,7 +27,7 @@ const SecondSection = ({ empresa }) => {
           >
             {empresa?.length ? space(capitalize(empresa)) : "Empresa"}
           </h3>
-          <h3 className="font-[1000] leading-[2.8rem] text-center sm:leading-[3rem] sm:text-[3rem] text-[3rem] font-bell text-[#222222]">
+          <h3 className={`font-[1000] leading-[2.6rem] text-center sm:leading-[3rem] sm:text-[3rem] text-[2.5rem] ${merriweather.className}  text-[#222222]`}>
             Eventos a tu Medida
           </h3>
         </div>
