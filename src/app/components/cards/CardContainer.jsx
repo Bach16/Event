@@ -1,6 +1,6 @@
 import { Card } from "..";
 import img1 from "../../../../public/pexels-alina-skazka-14822267.jpg";
-import img2 from "../../../../public/photos-by-lanty-O38Id_cyV4M-unsplash.jpg";
+import img2 from "../../../../public/evelina-friman-hw_sKmjb0ns-unsplash.jpg";
 import img3 from "../../../../public/pexels-ekaterina-10152716.jpg";
 
 const CardContainer = () => {
