@@ -18,7 +18,7 @@ const marcellus = Marcellus({
 const FirstSection = ({ empresa }) => {
   return (
     <div
-      className={`  bg-[url('../../public/al-elmes-ULHxWq8reao.jpg')] bg-no-repeat bg-fixed bg-cover `}
+      className={`  bg-[url('../../public/jeremy-wong-weddings-K8KiCHh4WU4.jpg')] bg-no-repeat bg-fixed bg-cover bg-center `}
     >
       <div
         className={`h-[30rem] sm:h-screen bg-black/[0.4] backdrop-brightness-75`}
