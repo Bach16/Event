@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Abel } from "next/font/google";
 import capitalize from "@/assets/capitalize";
+import space from "@/assets/space";
 
 const abel = Abel({
   subsets: ["latin"],
@@ -14,7 +15,7 @@ const Footer = ({empresa}) => {
     <footer
       className={` border-[1px] ${abel.className} border-solid border-t-[#c1c1c1] text-[#222222] h-[7rem] font-bell flex flex-col sm:flex-row justify-center items-center`}
     >
-      <p  >© 2023 {empresa?.length ? capitalize(empresa) : "Empresa"} | Hecho por </p>
+      <p  >© 2023 {empresa?.length ? space(capitalize(empresa)) : "Empresa"} | Hecho por </p>
       <div>
         <Link
           href={"https://api.whatsapp.com/send?phone=593993272165"}
