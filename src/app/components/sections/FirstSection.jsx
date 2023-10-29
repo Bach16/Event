@@ -24,11 +24,11 @@ const FirstSection = ({ empresa }) => {
         className={`h-[30rem] sm:h-screen bg-black/[0.4] backdrop-brightness-75`}
       >
         <nav className="h-[15%] sm:flex sm:justify-center">
-          <ul className="flex justify-center items-center sm:w-[90%] sm:p-[2rem] px-[1rem]">
-            <li className={`text-[#ffffff] text-[2rem] ${marcellus.className}`}>
+          <div className="flex justify-center items-center text-center sm:w-[90%] sm:p-[2rem] px-[1rem]">
+            <p className={`text-[#ffffff] text-[2rem] ${marcellus.className}`}>
               {empresa?.length ? space(capitalize(empresa)) : "Empresa"}
-            </li>
-          </ul>
+            </p>
+          </div>
         </nav>
         <div className="flex h-[7%] sm:h-[15%]" />
         <div className="h-[80%] sm:h-[40%] flex flex-col justify-around items-center">
