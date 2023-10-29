@@ -21,7 +21,7 @@ const ThirdSection = () => {
       </div>
       <div className="h-[80%] sm:h-[64%] w-[77%] sm:w-[60%] absolute top-[14%] sm:top-[25%] bg-[#f8f8f8] z-0 ">
         <div className="flex flex-col sm:flex-row justify-between h-[100%]">
-          <div className="bg-[url('../../public/pexels-alina-skazka-14822267.jpg')] h-[30%] sm:h-[100%] sm:w-[50%] w-[100%] bg-no-repeat bg-cover"></div>
+          <div className="bg-[url('../../public/37ed8306-5e22-47f5-81ee-442f52ad9b9c.jpg')] h-[30%] sm:h-[100%] sm:w-[50%] w-[100%] bg-no-repeat bg-cover"></div>
           <div className="h-[70%] sm:h-[100%] sm:w-[50%] bg-[#ffffff] flex flex-col px-[1.9rem] sm:px-[4rem] justify-evenly items-center ">
             <h3 className="font-[590] leading-[2.2rem] sm:leading-[3.8rem] sm:text-[3.8rem] text-[2.3rem]  font-platNomor text-[#222222]">
               Conocenos un poco mas
@@ -30,7 +30,7 @@ const ThirdSection = () => {
               2028
             </p> */}
             <p className="font-light   sm:leading-[1.4rem] sm:text-[1.2rem] text-[1rem]  font-bell text-[#222222]">
-              Se fundo la empresa, con el fin de organizar eventos que cumplan un nivel de exelencia, a partir de ese momento, hemos podido expandirnos por toda la region y consolidarnos en la industria.
+            Nuestra historia se teje con el fin de organizar eventos que cumplan un nivel de exelencia, A lo largo de los años, hemos podido expandirnos por toda la region y consolidarnos en la industria.
             </p>
           </div>
         </div>
