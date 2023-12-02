@@ -1,14 +1,19 @@
-import { FirstSection, Footer, SecondSection, ThirdSection } from "./components";
+import {
+  FirstSection,
+  Footer,
+  Navbar,
+  SecondSection,
+  ThirdSection,
+} from "./components";
 
 export default function Home() {
-
-
   return (
     <>
+      <Navbar />
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <Footer/>
+      <Footer />
     </>
   );
 }

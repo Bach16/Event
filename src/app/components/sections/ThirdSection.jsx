@@ -16,15 +16,20 @@ const anton = Anton({
   subsets: ["latin"],
   display: "swap",
   weight: ["400"],
-})
+});
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center h-screen ">
+    <div
+      id="section-3"
+      className="relative flex flex-col items-center h-screen "
+    >
       <div className="bg-[url('../../public/charlesdeluvio-Lks7vei-eAg.jpg')] sm:h-[50%] h-[50%]  w-[100%] bg-no-repeat bg-cover ">
         <div className="h-[100%]  w-[100%]  bg-black/[0.4] backdrop-brightness-75">
           <div className="flex h-[35%] justify-center flex-col items-center ">
-            <p className={`font-regular text-center leading-[1rem] sm:leading-[4rem] sm:text-[3rem] text-[2.4rem]  ${lobster.className} text-[#ffffff]`}>
+            <p
+              className={`font-regular text-center leading-[1rem] sm:leading-[4rem] sm:text-[3rem] text-[2.4rem]  ${lobster.className} text-[#ffffff]`}
+            >
               Nuestra Historia
             </p>
             <div className=" w-[45%] sm:w-[15%] h-[1.1rem] border-solid border-b-[1px] border-[#ffffff]" />
@@ -35,14 +40,21 @@ const ThirdSection = () => {
         <div className="flex flex-col sm:flex-row justify-between h-[100%]">
           <div className="bg-[url('../../public/photos-by-lanty-O38Id_cyV4M-unsplash.jpg')] h-[30%] sm:h-[100%] sm:w-[50%] w-[100%] bg-no-repeat bg-cover"></div>
           <div className="h-[70%] sm:h-[100%] sm:w-[50%] bg-[#ffffff] flex flex-col px-[1.9rem] sm:px-[4rem] justify-evenly items-center ">
-            <h3 className={`font-[590] leading-[2.2rem] sm:leading-[3.8rem] sm:text-[3.6rem] text-[2.1rem]  ${anton.className} text-[#222222]`}>
+            <h3
+              className={`font-[590] leading-[2.2rem] sm:leading-[3.8rem] sm:text-[3.6rem] text-[2.1rem]  ${anton.className} text-[#222222]`}
+            >
               Conocenos un poco mas
             </h3>
-           {/*  <p className="font-bold  sm:leading-[2rem] sm:text-[3rem] text-[1.4rem]  font-bell text-[#222222]">
+            {/*  <p className="font-bold  sm:leading-[2rem] sm:text-[3rem] text-[1.4rem]  font-bell text-[#222222]">
               2028
             </p> */}
-            <p className={`font-light leading-[1.5rem]   sm:leading-[1.7rem] sm:text-[1rem] text-[0.85rem]  ${merriweather.className} text-[#222222]`}>
-            Nuestra historia se teje con el fin de organizar eventos que cumplan un nivel de exelencia, A lo largo de los años, hemos podido expandirnos por toda la region y consolidarnos en la industria.
+            <p
+              className={`font-light leading-[1.5rem]   sm:leading-[1.7rem] sm:text-[1rem] text-[0.85rem]  ${merriweather.className} text-[#222222]`}
+            >
+              Nuestra historia se teje con el fin de organizar eventos que
+              cumplan un nivel de exelencia, A lo largo de los años, hemos
+              podido expandirnos por toda la region y consolidarnos en la
+              industria.
             </p>
           </div>
         </div>
